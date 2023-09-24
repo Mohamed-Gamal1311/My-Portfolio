@@ -1,0 +1,99 @@
+.Portfolio{
+    background: #f8f8f8;
+   margin-top: 2%;
+   
+}
+
+
+.Portfolio .Content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+   font-size: 25px;
+}
+.Portfolio .Content .first{
+    padding-left: 30px;
+        padding-right: 30px;
+        background: #eb5424;
+        color: white;
+        border-radius: 8px;
+}
+.Portfolio .Content p{
+    margin-right: 20px;
+}
+.Portfolio .card {
+   display: flex;
+   flex-wrap: wrap;
+  
+}
+.Portfolio .card .state{
+    width: 25%;
+    position: relative;
+   
+
+
+}
+.Portfolio .state img {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+
+}
+.Portfolio .card .state .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(235,84,36 , 0.5);
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    width: 100%;
+    opacity: 0;
+}
+.Portfolio .card .state .button button{
+ 
+    
+    border: 1px solid #eb5424;
+    background: white;
+    font-size: 16px;
+    padding: 0px 3px;
+    border-radius: 4px;
+    
+    
+}
+.Portfolio .card .state .button:hover{
+    opacity: 1
+}
+@media(max-width:900px){
+    .Portfolio .card .state{
+        width: 50%;
+    }
+    
+    .Portfolio .Content{
+        font-size: 20px;
+    }
+}
+
+
+@media(max-width:665px){
+    .Portfolio .Content{
+        font-size: 10px;
+    }
+    .Portfolio .card .state{
+        width: 100%;
+    }
+
+}
+@media(max-width:450px){
+    .Portfolio .Content{
+        font-size: 7px;
+    }
+    .Portfolio .Content p{
+        margin-right: 3%;
+    }
+
+}

@@ -1,0 +1,41 @@
+.Container{
+    width: 80%;
+    margin:auto;
+
+}
+.About{
+    background-image: url(Image-about/about-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 75vh;
+    background-position: center;
+}
+
+.Content{
+    text-align: initial;
+    padding-top: 9%;
+    padding-left: 50%;
+}
+ .secondh1{
+    color: #eb5424;
+   
+}
+.firsth1{
+    margin-bottom: 4px;
+  
+    font-size: 20px;
+}
+@media (max-width:1200px){
+    .About{
+    height: 100vh;
+    }
+}
+@media (max-width:800px){
+    .Content{
+        padding: 0%;
+    }
+    .firsth1{
+  
+        font-size: 17px;
+    }
+}

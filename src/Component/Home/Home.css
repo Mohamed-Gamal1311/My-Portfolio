@@ -1,0 +1,78 @@
+
+.Home{
+    background-image: url(Imagehome/home-bg.jpg) ;
+    height: 100vh;
+    background-size: cover;
+}
+
+.Home .parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    line-height: 1.3;
+}
+.Home .parent h1{
+    color: #5e5e5e;
+    font-size: 60px;
+    font-weight: bold;
+}
+.Home .parent h3{
+    color: #eb5424;
+    font-size: 40px;
+    font-weight: 500;
+}
+.Home .parent p{
+    color: #888;
+
+}
+span{
+    font-weight: 500;
+    color: black;
+}
+.Home .parent button{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background: #eb5424;
+    color: white;
+}
+
+.Home .parent button:hover{
+
+    background: white;
+    color:  #eb5424;
+
+}
+@media(max-width:900px){
+  .Home .parent .home-cont h1{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .Home .parent .home-cont h3{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .Home .parent .home-cont p{
+    width: 60%;
+    margin: auto;
+  }
+
+}
+@media(max-width:750px){
+    .Home .parent .home-cont p{
+        width: 51%;
+        margin: auto;
+       
+
+    }
+    .Home .parent .home-cont{
+        padding-left: 50px;
+    }
+}

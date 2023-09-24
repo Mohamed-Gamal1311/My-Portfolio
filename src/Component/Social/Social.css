@@ -1,0 +1,55 @@
+.social {
+    margin-bottom: 100px;
+
+}
+
+.ppp {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.social .ppp .span1 {
+    display: block;
+}
+
+.social .ppp .parent {
+    display: flex;
+    width: 33.33%;
+    height: 35vh;
+     justify-content: space-around;
+    align-items: center;
+}
+.social .ppp .parent .image-social{
+    width: 132px;
+    height: 61px;
+}
+
+.ppp .parent:first-child {
+    background: #5080e6;
+}
+
+.parent img {
+    padding-left: 45px;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.ppp .parent:last-child {
+    background: #091bbb;
+}
+
+@media(max-width : 950px) {
+    .social .ppp .parent {
+        width: 100%;
+
+
+    }
+
+    .social .ppp {
+        flex-wrap: wrap;
+    }
+}

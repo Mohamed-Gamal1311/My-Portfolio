@@ -1,0 +1,79 @@
+.My-Profile{
+    padding-top: 35px ;
+}
+.My-Profile .Container {
+    width: 80%;
+    margin: auto;
+}
+
+.My-Profile .Container .content .part1{
+    width: 40%;
+    text-align: initial;
+    margin-bottom: 20px;
+}
+.My-Profile .Container .content .part1 h1{
+    margin-bottom: 20px;
+}
+.My-Profile .Container .content .part1 p{
+    margin-bottom: 20px;
+}
+.My-Profile .Container .content .part1 h5{
+    border-bottom: 1px solid;
+    border-color: rgba(1,1,1,0.1);
+}
+.My-Profile .Container .content .part1 span{
+    margin-bottom: 27px;
+   ;
+}
+.My-Profile .Container .content .part1 h5 span{
+        padding-left: 57%;
+
+        
+}
+.My-Profile .Container .content .part1 .second{
+padding-left: 65%;
+}
+.My-Profile .Container .content .part1 .firstspan{
+    width: 100%;
+    display: block;
+    background: #eb5424;
+    height: 2px;
+}
+.My-Profile .Container .content .part1 .secondspan{
+    width: 90%;
+    display: block;
+    background: #eb5424;
+    height: 2px;
+}
+.My-Profile .Container .content .part1 .thirdspan{
+    width: 80%;
+    display: block;
+    background: #eb5424;
+    height: 2px;
+}
+.My-Profile .Container .content .part1 .forth{
+    width: 85%;
+    display: block;
+    background: #eb5424;
+    height: 2px;
+}
+.My-Profile .Container .content .part1 .fifth{
+    width: 70%;
+    display: block;
+    background: #eb5424;
+    height: 2px;
+}
+
+@media(max-width:800px){
+  
+.content{
+    flex-direction: column;
+    align-items: center;
+
+}
+.part1 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+}

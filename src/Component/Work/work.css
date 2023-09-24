@@ -1,0 +1,78 @@
+.Work{
+    
+    margin-bottom: 30px;
+}
+.Container{
+    width: 80%;
+    margin: auto;
+}
+.Work .Container h1{
+    text-align: initial;
+}
+.Work .Container .boxs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: black;
+    border-radius: 2px; 
+    padding-top: 40px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Work .Container .boxs .box{
+    width: 29%;
+    text-align: center;
+    border-color: black;
+    border: 1px solid #888;
+    padding-bottom: 51px;
+    padding-top: 51px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(1, 1,1,100%);
+    
+    height: 400px;
+   
+}
+.Work .Container .boxs .box:hover{
+    transform: scale(1.1)
+}
+.Work .Container .boxs .box hr{
+    width: 60%;
+    margin: auto;
+    
+}
+.Work .Container .boxs .box p{
+    padding-top: 20px;
+    color: #888;
+}
+.Work .Container .boxs .box  h2{
+    color: #eb5424;
+    padding-bottom: 10px;
+ 
+}
+.Work .Container .boxs .box a{
+   text-decoration: none;
+}
+
+@media(max-width:1150px){
+    .Work .Container .boxs .box {
+       width: 48%;
+        justify-content: space-between;
+      height: 400px;
+    margin-bottom: 25px
+    }
+    .Work .Container .boxs {
+        flex-wrap: wrap;
+       
+    }}
+
+    @media(max-width:700px){
+   .Work .Container .boxs .box {
+       width:100%;
+       
+        
+    }
+    .Work .Container .boxs .box p{
+        font-size: 15px;
+}
+
+    }

@@ -1,0 +1,45 @@
+.Container{
+    width: 60%;
+    margin: auto;
+}
+.firstin input:nth-of-type(1){
+    margin-right: 10%;
+    width: 45%;
+}
+.firstin input{
+    width: 45%;
+    padding: 10px 6px;
+    outline: none;
+}
+.Contact .Container h1{
+    padding-bottom: 20px;
+}
+.Contact .Container .secondin input 
+{
+    width: 100%;
+    padding: 10px 8px;
+    margin: 6px 0px;
+}
+.Contact .Container textarea{
+    width: 100%;
+    margin: 6px 0px;
+    padding: 10px 8px;
+    height: 30vh;
+    overflow: scroll;
+    border-left: 2px solid rgb(83, 73, 73);
+    overflow-x: hidden; 
+    border-top: 2px solid rgb(83, 73, 73);
+        background: #ccc
+}
+.Contact .Container button{
+    padding: 5px 50px;
+    background: white;
+}
+@media (max-width:750px) {
+    .Contact .firstin input{
+        width: 100%;
+        margin-bottom: 7px;
+    }
+}
+
+
